@@ -1,0 +1,4 @@
+C:\Users\berat\Desktop\B2B_Exe_Dosyasi\appsettings.Development.json
+C:\Users\berat\Desktop\B2B_Exe_Dosyasi\appsettings.json
+C:\Users\berat\Desktop\B2B_Exe_Dosyasi\AvmB2B.Api.pdb
+C:\Users\berat\Desktop\B2B_Exe_Dosyasi\AvmB2B.Api.exe

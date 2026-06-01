@@ -1,0 +1,47 @@
+{
+  "ConnectionStrings": {
+    "PetrolDb": "Server=.\\PETRONET;Database=PETROL_2021;User Id=b2b_api_user;Password=Sakarya2627;TrustServerCertificate=True;Encrypt=False;"
+  },
+  "WindowsService": {
+    "ServiceName": "AvmB2b",
+    "RestartDelaySeconds": 5
+  },
+  "Jwt": {
+    "Key": "Xk3L9aJ7pZk8f9S0K1v2Y3ZxT5bW6R8nM0pQ2eF4hJ6L8V9sD1F3G5H7K9L0==",
+    "Issuer": "AvmB2B.Api",
+    "Audience": "AvmB2B.Client",
+    "ExpireMinutes": 30
+  },
+  "Security": {
+    "EncryptionKey": "Ls3hAX58l3w7ds+KtI3hmUg9IiVuJ8AdNnq2B0yHuIU="
+  },
+  "AllowedOrigins": [
+    "https://cari.avmakaryakit.com",
+    "http://localhost:3000",
+    "http://localhost:5000",
+    "http://localhost:5173",
+    "http://localhost:8080",
+    "http://localhost:5276"
+  ],
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "VirtualPos": {
+    "BankCode": "KuveytTurk",
+    "MerchantId": "57902",
+    "MerchantUser": "TEPKVT2021",
+    "MerchantPassword": "<şifre>",
+    "MerchantStoreKey": "<customerId/storeKey>",
+    "TestPlatform": true,
+    "ReturnUrl": "https://cari.avmakaryakit.com/api/payments/3d-callback"
+  },
+  "Accounting": {
+    "PaymentUser": "HAYRETTİN",
+    "CreditCardAccountType": "istkart",
+    "CreditCardAccountCode": "KART0012",
+    "Currency": "TL"
+  }
+}

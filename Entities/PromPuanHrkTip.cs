@@ -1,0 +1,19 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace AvmB2B.Api.Entities;
+
+public partial class PromPuanHrkTip
+{
+    public int Id { get; set; }
+
+    public int? Tip { get; set; }
+
+    public string? AckTr { get; set; }
+
+    public string? AckEn { get; set; }
+
+    public string? AckAl { get; set; }
+
+    public string? AckRu { get; set; }
+}

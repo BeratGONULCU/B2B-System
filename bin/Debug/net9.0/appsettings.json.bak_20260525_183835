@@ -1,0 +1,38 @@
+{
+  "ConnectionStrings": {
+    "PetrolDb": "Data Source=.\\PETRONET;Initial Catalog=PETROL_2026;Integrated Security=True;Encrypt=False;Trust Server Certificate=True"
+  },
+  "WindowsService": {
+    "ServiceName": "AvmB2b",
+    "RestartDelaySeconds": 5
+  },
+  "Jwt": {
+    "Key": "Xk3L9aJ7pZk8f9S0K1v2Y3ZxT5bW6R8nM0pQ2eF4hJ6L8V9sD1F3G5H7K9L0==",
+    "Issuer": "AvmB2B.Api",
+    "Audience": "AvmB2B.Client",
+    "ExpireMinutes": 30
+  },
+  "Security": {
+    "EncryptionKey": "Ls3hAX58l3w7ds\u002BKtI3hmUg9IiVuJ8AdNnq2B0yHuIU="
+  },
+  "AllowedOrigins": [
+    "https://cari.avmakaryakit.com",
+    "http://localhost:3000",
+    "http://localhost:5000",
+    "http://localhost:5173",
+    "http://localhost:8080",
+    "http://localhost:5276"
+  ],
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "Accounting": {
+    "PaymentUser": "HAYRETT\u0130N",
+    "CreditCardAccountType": "istkart",
+    "CreditCardAccountCode": "KART0012",
+    "Currency": "TL"
+  }
+}
