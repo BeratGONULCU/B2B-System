@@ -263,14 +263,14 @@ FakesAssemblies/
 *.opt
 
 # App configuration / secrets
-appsettings*.json
+# appsettings*.json
 !appsettings.example.json
 
 # Local launch settings
-Properties/launchSettings.json
+#Properties/launchSettings.json
 
 # Visual Studio cache
-*.lscache
+#*.lscache
 
 # Local config copies
 appsetting copy.txt
