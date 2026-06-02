@@ -261,3 +261,18 @@ FakesAssemblies/
 
 # Visual Studio 6 workspace options file
 *.opt
+
+# App configuration / secrets
+appsettings*.json
+!appsettings.example.json
+
+# Local launch settings
+Properties/launchSettings.json
+
+# Visual Studio cache
+*.lscache
+
+# Local config copies
+appsetting copy.txt
+appsettings.txt
+web.config.txt
