@@ -1,5 +1,0 @@
-C:\Publish\AvmB2B.Api\appsettings.Development.json
-C:\Publish\AvmB2B.Api\appsettings.json
-C:\Publish\AvmB2B.Api\appsettings.Production.json
-C:\Publish\AvmB2B.Api\AvmB2B.Api.pdb
-C:\Publish\AvmB2B.Api\AvmB2B.Api.exe
